@@ -15,6 +15,14 @@ header {
     padding: 1rem 2rem;
 }
 
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
 header img {
     width: 3.5rem;
     height: auto;
@@ -29,6 +37,10 @@ header img {
     margin: 1rem auto;
     border-radius:0.5rem;
 }
+
+#products p {
+    padding: 1rem;
+}
 .product-banner {
     width: 100%;
     max-width: 70rem;
@@ -38,8 +50,8 @@ header img {
     border-radius:0.5rem;
 }
 .product-des {
-    font-size: 0.8rem;
-    color: #777;
+    font-size: 1rem;
+    color: black;
     margin-bottom: 0.8rem;
 }
 
@@ -109,8 +121,13 @@ section {
 }
 
 #contact a {
+    color: black;
+}
+
+#contact a:hover{
     color: #2980b9;
 }
+
 .contact {
     display: flex;
     align-items: center;
